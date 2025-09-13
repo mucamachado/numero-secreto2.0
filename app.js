@@ -1,5 +1,5 @@
 let numsAlreadySorted = [];
-let maxNum = 10;
+let maxNum = 100;
 let secretNum = randomNumGen();
 let tGuesses = 1;
 
@@ -10,7 +10,7 @@ function showText (tag, texto) {
     responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
 }
     showText('h1', 'Jogo do número secreto');
-    showText('p', 'Escolha um número entre 1 e 10');
+    showText('p', 'Escolha um número entre 1 e 100');
 
 
 function checkGuess() {
