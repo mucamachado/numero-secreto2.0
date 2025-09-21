@@ -1,7 +1,6 @@
 let numsAlreadySorted = [];
 let maxNum = 10;
 let secretNum = randomNumGen();
-let tGuesses = 1;
 
 
 function showText (tag, texto) {
