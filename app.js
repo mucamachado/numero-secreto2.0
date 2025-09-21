@@ -1,5 +1,5 @@
 let numsAlreadySorted = [];
-let maxNum = 50;
+let maxNum = 10;
 let secretNum = randomNumGen();
 let tGuesses = 1;
 
